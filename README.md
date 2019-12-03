@@ -4,7 +4,13 @@ Clone the project
 
 Import into your favourite IDE
 
-Edit class MahoutUserBasedRecommenderApplication and change the path to tha dataset.csv file according to your machine
+switch to the mysql branch: git checkout mysql
+
+Create database and tables using tables.sql
+
+Use the dataset.csv to populate the database with data
+
+change mysql username/password according to your credentials 
 
 Run as java application
 
