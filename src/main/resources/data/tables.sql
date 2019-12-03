@@ -2,8 +2,7 @@
 create table ratings ( 
    userid int, 
    itemid int, 
-   rating int, 
-   timestamp int, 
+   rating int,
    primary key (userid, itemid)); 
 
 create table items ( 
